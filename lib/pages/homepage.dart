@@ -9,7 +9,10 @@ class homepage extends StatelessWidget {
     final days = 20;
     return Scaffold(
       appBar: AppBar(
-        title: Text("Catalog App"),
+        title: Text(
+          "Catalog App",
+          style: Theme.of(context).textTheme.headline6,
+        ),
       ),
       body: Center(
         child: Container(
